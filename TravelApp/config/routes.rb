@@ -4,5 +4,7 @@ Rails.application.routes.draw do
 
   get '/tags/:id' => 'tags#show', as: :tag
 
+  get 'destinations/:id' => 'destinations#show', as: :destination
+
 end
 
